@@ -1,4 +1,12 @@
 
+#### 1.1.2
+
+> 137 Bytes.
+
+- Converted primary assertion function to a lambda (arrow) function.
+
+`a=(x,m)=>{if(!x)throw Error(m||"AssertionError")};module.exports={equal(x,y,m){a(x==y,m)},notEqual(x,y,m){a(x!=y,m)},truthy(t,m){a(t,m)}}`
+
 #### 1.1.1
 
 > 142 Bytes.
