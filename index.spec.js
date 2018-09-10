@@ -21,9 +21,9 @@ test("picoassert.notEqual()", function (t) {
   t.end();
 });
 
-test("picoassert.truthy()", function (t) {
+test("picoassert()", function (t) {
   try {
-    assert.truthy(true);
+    assert(true);
     t.pass("Does not throw on truthy value.");
   } catch (ex) {
     t.fail();
