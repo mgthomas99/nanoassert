@@ -1,12 +1,10 @@
 {
-  "name": "nanoassert",
-  "version": "1.1.0",
-  "description": "Nanoscale assertion module",
-  "main": "index.js",
+  "name": "picoassert",
+  "version": "1.0.0",
+  "description": "Pico-scale assertion module",
+  "main": "index.min.js",
   "dependencies": {},
-  "devDependencies": {
-    "tape": "^4.6.3"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "tape test"
   },
@@ -22,8 +20,18 @@
     "nano",
     "pico"
   ],
-  "author": "Emil Bay <github@tixz.dk>",
-  "license": "ISC",
+  "author": {
+    "name": "George Thomas",
+    "url": "https://mgthomas99.github.io"
+  },
+  "contributors": [
+    {
+      "name": "Emil Bay",
+      "email": "github@tixz.dk",
+      "url": "https://tixz.dk"
+    }
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/emilbayes/nanoassert/issues"
   },
