@@ -1,4 +1,15 @@
 
+#### 1.2.0
+
+> 134 Bytes.
+
+- Default invocation will act as `truthy` function.
+
+`a=(x,m)=>{if(!x)throw Error(m||"AssertionError")};module.exports=Object.assign(a,{equal(x,y,m){a(x==y,m)},notEqual(x,y,m){a(x!=y,m)}})`
+
+Now, instead of using `picoassert.truthy(x)`, you use `picoassert(x)`. It will
+yield the same result.
+
 #### 1.1.2
 
 > 137 Bytes.
