@@ -1,0 +1,31 @@
+{
+  "name": "picoassert",
+  "description": "Pico-scale assertion module",
+  "version": "1.2.2",
+  "main": "index.js",
+  "authors": [
+    "George Thomas"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "assert",
+    "equal",
+    "golfed",
+    "golf",
+    "minified",
+    "minify",
+    "minimal",
+    "nano",
+    "pico",
+    "tiny",
+    "unassert"
+  ],
+  "homepage": "https://github.com/mgthomas99/picoassert",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

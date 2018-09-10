@@ -1,4 +1,8 @@
 
+#### 1.2.2
+
+Minor project refactoring.
+
 #### 1.2.1
 
 > 132 Bytes.
