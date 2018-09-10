@@ -2,7 +2,7 @@
   "name": "picoassert",
   "version": "1.2.1",
   "description": "Pico-scale assertion module",
-  "main": "index.min.js",
+  "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "tape": "^4.9.1"
