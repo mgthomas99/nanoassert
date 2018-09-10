@@ -1,4 +1,12 @@
 
+#### 1.2.1
+
+> 132 Bytes.
+
+- Assign directly to `module.exports`.
+
+`a=Object.assign(module.exports=(x,m)=>{if(!x)throw Error(m||"AssertionError")},{equal(x,y,m){a(x==y,m)},notEqual(x,y,m){a(x!=y,m)}})`
+
 #### 1.2.0
 
 > 134 Bytes.
