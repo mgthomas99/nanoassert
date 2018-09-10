@@ -4,9 +4,11 @@
   "description": "Pico-scale assertion module",
   "main": "index.min.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
   "scripts": {
-    "test": "tape test"
+    "test": "tape \"**/*.spec.js\""
   },
   "repository": {
     "type": "git",
@@ -14,11 +16,16 @@
   },
   "keywords": [
     "assert",
-    "unassert",
-    "power-assert",
-    "tiny",
+    "equal",
+    "golfed",
+    "golf",
+    "minified",
+    "minify",
+    "minimal",
     "nano",
-    "pico"
+    "pico",
+    "tiny",
+    "unassert"
   ],
   "author": {
     "name": "George Thomas",
@@ -33,7 +40,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emilbayes/nanoassert/issues"
+    "url": "https://github.com/mgthomas99/picoassert/issues"
   },
-  "homepage": "https://github.com/emilbayes/nanoassert#readme"
+  "homepage": "https://github.com/mgthomas99/picoassert#readme"
 }
