@@ -1,49 +1,33 @@
-# `nanoassert`
+# picoassert
 
-> Nanoscale assertion module
+> Perhaps the smallest Javascript assertion module
+
+`picoassert` is a 157-byte Javascript assertion module. It is based on 
+[nanoassert](https://github.com/emilbayes/nanoassert).
 
 ## Usage
 
 ```js
-var assert = require('nanoassert')
+var assert = require("picoassert")
 
-assert(a !== b, `${a} !== ${b}`)
+assert.equal(a, b, `${a} == ${b}`);
+assert.notEqual(a, b, `${a} != ${b}`);
+assert.truthy(a, `!!${a} === true`);
 ```
-
-## API
-
-### `assert(declaration, [message])`
-### `assert.ok(declaration, [message])`
-
-Assert that `declaration` is truthy otherwise throw `Error` with
-optional `message`, which defaults to `AssertionError`.
-If you want friendlier messages you can use template strings to show the
-assertion made like in the example above.
-
-### `assert.notOk(declaration, [message])`
-
-Assert that `declaration` is not truthy.
-
-### `assert.equal(a, b, [message])`
-
-Assert that `a` is loosely equal to `b`. Uses `==` for the comparison.
-
-### `assert.notEqual(a, b, [message])`
-
-Assert that `a` is loosely not equal to `b`. Uses `==` for the comparison.
 
 ## Why
 
-I like to write public facing code very defensively, but have complaints about
-the size incurred by the `assert` module. I only use the top-level `assert`
-method anyway, so this should make everyone happy :)
+The `nanoassert` repository `README` describes the author's complaint about the
+excessive size of the [`assert`](https://www.npmjs.com/package/assert) module,
+the standard assertion library. However, even the `nanoassert` library was
+unnecessarily large, which led to the creation of `picoassert`.
 
 ## Install
 
 ```sh
-npm install nanoassert
+npm install picoassert
 ```
 
 ## License
 
-[ISC](LICENSE)
+Please see the `LICENSE` file for license information.
