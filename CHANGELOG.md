@@ -1,4 +1,15 @@
 
+#### 1.3.0
+
+> 123 Bytes.
+
+- Renamed functions to short but recognisable names.
+
+`a=Object.assign(module.exports=(x,m="AssertionError")=>{if(!x)throw Error(m)},{eq(x,y,m){a(x==y,m)},neq(x,y,m){a(x!=y,m)}})`
+
+I know I said I wouldn't change the function names, but I now decided on names
+that are still easily recognisable.
+
 #### 1.2.3
 
 > 131 Bytes.

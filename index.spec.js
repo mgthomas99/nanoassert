@@ -1,7 +1,7 @@
 var test = require("tape");
 var assert = require("./");
 
-test("picoassert.equal()", function (t) {
+test("picoassert.eq()", function (t) {
   try {
     assert.equal(true, true);
     t.pass("Does not throw on equal values.");
@@ -11,7 +11,7 @@ test("picoassert.equal()", function (t) {
   t.end();
 });
 
-test("picoassert.notEqual()", function (t) {
+test("picoassert.neq()", function (t) {
   try {
     assert.notEqual(true, false);
     t.pass("Does not throw on unequal values.");
