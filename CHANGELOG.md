@@ -1,11 +1,20 @@
 
-#### 1.0.2
+#### 1.1.1
+
+> 142 Bytes.
+
+- Removed unnecessary boolean conversion.
+
+`function a(x,m){if(!x)throw Error(m||"AssertionError")}module.exports={equal(x,y,m){a(x==y,m)},notEqual(x,y,m){a(x!=y,m)},truthy(t,m){a(t,m)}}`
+
+#### 1.1.0
 
 > 144 Bytes.
 
 - Removed redundant `assert` API function.
 
 `function a(x,m){if(!x)throw Error(m||"AssertionError")}module.exports={equal(x,y,m){a(x==y,m)},notEqual(x,y,m){a(x!=y,m)},truthy(t,m){a(!!t,m)}}`
+
 
 #### 1.0.1
 
