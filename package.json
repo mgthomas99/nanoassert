@@ -1,6 +1,6 @@
 {
   "name": "picoassert",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Tiny Javascript assertion library",
   "main": "index.js",
   "dependencies": {},
