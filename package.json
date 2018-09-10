@@ -1,6 +1,6 @@
 {
   "name": "picoassert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pico-scale assertion module",
   "main": "index.min.js",
   "dependencies": {},
