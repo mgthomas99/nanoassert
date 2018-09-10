@@ -1,3 +1,5 @@
 **/*.spec.js
 .editorconfig
+.gitattributes
+bower.json
 CHANGELOG.md
