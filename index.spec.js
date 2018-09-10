@@ -3,7 +3,7 @@ var assert = require("./");
 
 test("picoassert.eq()", function (t) {
   try {
-    assert.equal(true, true);
+    assert.eq(true, true);
     t.pass("Does not throw on equal values.");
   } catch (ex) {
     t.fail();
@@ -13,7 +13,7 @@ test("picoassert.eq()", function (t) {
 
 test("picoassert.neq()", function (t) {
   try {
-    assert.notEqual(true, false);
+    assert.neq(true, false);
     t.pass("Does not throw on unequal values.");
   } catch (ex) {
     t.fail();
@@ -23,7 +23,7 @@ test("picoassert.neq()", function (t) {
 
 test("picoassert()", function (t) {
   try {
-    assert(true);
+    assert.is(true);
     t.pass("Does not throw on truthy value.");
   } catch (ex) {
     t.fail();
