@@ -1,7 +1,7 @@
 {
   "name": "picoassert",
   "description": "Pico-scale assertion module",
-  "version": "1.2.2",
+  "version": "1.4.0",
   "main": "index.js",
   "authors": [
     "George Thomas"
