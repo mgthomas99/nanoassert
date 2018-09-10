@@ -1,44 +1,32 @@
-var assert = require('.')
-var test = require('tape')
+var test = require("tape");
+var assert = require("./");
 
-var methods = {
-  'notEqual': [true, false],
-  'notOk': [false],
-  'equal': [true, true],
-  'ok': [true]
-}
-
-test('test', function (t) {
+test("picoassert.equal()", function (t) {
   try {
-    assert(true === true) // test that it doesn't throw
-    t.pass('does not throw on truthy')
-  } catch (e) {
-    t.fail()
+    assert.equal(true, true);
+    t.pass("Does not throw on equal values.");
+  } catch (ex) {
+    t.fail();
   }
+  t.end();
+});
 
-  t.throws(assert.bind(null, false), 'throws on falsy')
-
+test("picoassert.notEqual()", function (t) {
   try {
-    assert(false)
-  } catch (e) {
-    t.equal(e.message, 'AssertionError', 'default message')
+    assert.notEqual(true, false);
+    t.pass("Does not throw on unequal values.");
+  } catch (ex) {
+    t.fail();
   }
+  t.end();
+});
 
+test("picoassert.truthy()", function (t) {
   try {
-    assert(false, 'hello world')
-  } catch (e) {
-    t.equal(e.message, 'hello world', 'custom message')
+    assert.truthy(true);
+    t.pass("Does not throw on truthy value.");
+  } catch (ex) {
+    t.fail();
   }
-
-  Object.keys(methods).forEach(function (method) {
-    var args = methods[method]
-    try {
-      assert[method].apply(null, args)
-      t.pass('does not throw')
-    } catch (e) {
-      t.fail()
-    }
-  })
-
-  t.end()
-})
+  t.end();
+});
