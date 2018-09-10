@@ -1,1 +1,1 @@
-a=Object.assign(module.exports=(x,m)=>{if(!x)throw Error(m||"AssertionError")},{equal(x,y,m){a(x==y,m)},notEqual(x,y,m){a(x!=y,m)}})
+a=Object.assign(module.exports=(x,m="AssertionError")=>{if(!x)throw Error(m)},{equal(x,y,m){a(x==y,m)},notEqual(x,y,m){a(x!=y,m)}})

@@ -1,4 +1,12 @@
 
+#### 1.2.3
+
+> 131 Bytes.
+
+- Default `m` parameter value, rather than chacking in the function.
+
+`a=Object.assign(module.exports=(x,m="AssertionError")=>{if(!x)throw Error(m)},{equal(x,y,m){a(x==y,m)},notEqual(x,y,m){a(x!=y,m)}})`
+
 #### 1.2.2
 
 Minor project refactoring.

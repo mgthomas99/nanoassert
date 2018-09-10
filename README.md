@@ -2,7 +2,7 @@
 
 > Perhaps the smallest Javascript assertion module
 
-`picoassert` is a 132-byte Javascript assertion module. It is based on 
+`picoassert` is a 131-byte Javascript assertion module. It is based on 
 [nanoassert](https://github.com/emilbayes/nanoassert).
 
 ## Usage
