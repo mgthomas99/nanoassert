@@ -1,4 +1,8 @@
 
+#### 1.4.3
+
+- Changed license.
+
 #### 1.4.1
 
 - Disable ES hinters/linters; they don't like minified code!
