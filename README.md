@@ -7,8 +7,8 @@
 
 # picoassert
 
-[![npm][npm-version-shield-url]][npm-url]
-[![npm][npm-downloads-shield-url]][npm-url]
+[![npm][npm-version-shield-url]][npm-package-url]
+[![npm][npm-downloads-shield-url]][npm-package-url]
 [![Github file size][github-size-shield-url]][github-index-url]
 
 > Perhaps the smallest Javascript assertion module
