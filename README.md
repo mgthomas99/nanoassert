@@ -32,6 +32,15 @@ the code!
 npm install picoassert
 ```
 
+### Content Delivery Network (CDN)
+
+The picoassert library can be imported via [unpkg](https://unpkg.com/) as shown
+below:
+
+```html
+<script src="https://unpkg.com/picoassert/index.js"></script>
+```
+
 ## License
 
 Please see the `LICENSE` file for license information.
