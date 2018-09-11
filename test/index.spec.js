@@ -1,5 +1,5 @@
 var test = require("tape");
-var assert = require("./");
+var assert = require("../");
 
 test("picoassert.eq()", function (t) {
   try {

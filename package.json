@@ -8,7 +8,7 @@
     "tape": "^4.9.1"
   },
   "scripts": {
-    "test": "tape \"**/*.spec.js\""
+    "test": "tape \"test/**/*.spec.js\""
   },
   "repository": {
     "type": "git",
