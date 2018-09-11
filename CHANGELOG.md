@@ -4,6 +4,7 @@
 > 113 Bytes.
 
 - Disable ES hinters/linters; they don't like minified code!
+- Refactored tests to `test/` directory.
 
 `a=(module.exports={eq(x,y,m){a(x==y,m)},neq(x,y,m){a(x!=y,m)}}).is=(x,m="AssertionError")=>{if(!x)throw Error(m)}`
 
