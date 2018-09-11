@@ -1,4 +1,12 @@
 
+#### 1.4.1
+
+> 113 Bytes.
+
+- Disable ES hinters/linters; they don't like minified code!
+
+`a=(module.exports={eq(x,y,m){a(x==y,m)},neq(x,y,m){a(x!=y,m)}}).is=(x,m="AssertionError")=>{if(!x)throw Error(m)}`
+
 #### 1.4.0
 
 > 114 Bytes.

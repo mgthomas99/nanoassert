@@ -1,1 +1,1 @@
-a=(module.exports={is(x,m="AssertionError"){if(!x)throw Error(m)},eq(x,y,m){a(x==y,m)},neq(x,y,m){a(x!=y,m)}}).is;
+a=(module.exports={eq(x,y,m){a(x==y,m)},neq(x,y,m){a(x!=y,m)}}).is=(x,m="AssertionError")=>{if(!x)throw Error(m)}
