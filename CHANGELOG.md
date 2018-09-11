@@ -1,20 +1,16 @@
 
 #### 1.4.1
 
-> 113 Bytes.
-
 - Disable ES hinters/linters; they don't like minified code!
 - Refactored tests to `test/` directory.
 
-`a=(module.exports={eq(x,y,m){a(x==y,m)},neq(x,y,m){a(x!=y,m)}}).is=(x,m="AssertionError")=>{if(!x)throw Error(m)}`
-
 #### 1.4.0
 
-> 114 Bytes.
+> 113 Bytes.
 
 - Default export is no longer callable; use the `is()` function instead.
 
-`a=(module.exports={is(x,m="AssertionError"){if(!x)throw Error(m)},eq(x,y,m){a(x==y,m)},neq(x,y,m){a(x!=y,m)}}).is;`
+`a=(module.exports={is(x,m="AssertionError"){if(!x)throw Error(m)},eq(x,y,m){a(x==y,m)},neq(x,y,m){a(x!=y,m)}}).is`
 
 #### 1.3.0
 
