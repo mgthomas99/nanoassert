@@ -1,5 +1,9 @@
 **/*.spec.js
+.vscode/
 .editorconfig
+.eslintignore
 .gitattributes
+.jshintignore
 bower.json
 CHANGELOG.md
+index.spec.js
