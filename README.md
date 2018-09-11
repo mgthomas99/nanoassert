@@ -1,8 +1,19 @@
+[github-repository-url]: https://github.com/mgthomas99/picoassert
+[github-index-url]: https://github.com/mgthomas99/picoassert/blob/master/index.js
+[github-size-shield-url]: https://img.shields.io/github/size/mgthomas99/picoassert/index.js.svg?style=flat-square
+[npm-package-url]: https://www.npmjs.com/package/picoassert
+[npm-downloads-shield-url]: https://img.shields.io/npm/dt/picoassert.svg?style=flat-square
+[npm-version-shield-url]: https://img.shields.io/npm/v/picoassert.svg?style=flat-square
+
 # picoassert
+
+[![npm][npm-version-shield-url]][npm-url]
+[![npm][npm-downloads-shield-url]][npm-url]
+[![Github file size][github-size-shield-url]][github-index-url]
 
 > Perhaps the smallest Javascript assertion module
 
-`picoassert` is a 114-byte Javascript assertion module. It is based on 
+`picoassert` is a 114-byte Javascript assertion module. It is based on
 [nanoassert](https://github.com/emilbayes/nanoassert).
 
 ## Usage
