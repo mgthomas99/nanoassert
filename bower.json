@@ -22,10 +22,19 @@
   ],
   "homepage": "https://github.com/mgthomas99/picoassert",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    ".vscode/",
+    "bower_components/",
+    "node_modules/",
+    "test/",
+    ".editorconfig",
+    ".eslintignore",
+    ".gitattributes",
+    ".gitignore",
+    ".jshintignore",
+    ".npmignore",
+    ".npmrc",
+    ".nvmrc",
+    "CHANGELOG.md",
+    "package.json"
   ]
 }
