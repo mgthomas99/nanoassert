@@ -24,9 +24,17 @@
 ```js
 var assert = require("picoassert")
 
-assert.eq(a, b, `${a} == ${b}`);   // Asserts `a` and `b` are equal.
-assert.neq(a, b, `${a} != ${b}`);  // Asserts `a` and `b` are not equal.
-assert.is(a, `(!!${a}) === true`); // Asserts `a` is truthy.
+assert.eq(a, b);  // Asserts `a` and `b` are equal.
+assert.neq(a, b); // Asserts `a` and `b` are not equal.
+assert.is(a);     // Asserts `a` is truthy.
+```
+
+You can also provide your own error message to be used when constructing
+`Error`s when assertions fail. If no message is specified, a default message is
+used.
+
+```js
+assert.eq(a, b, "Assertion failed because A is not equal to B!");
 ```
 
 ## Why
@@ -36,15 +44,30 @@ excessive size of the [`assert`](https://www.npmjs.com/package/assert) module,
 the standard assertion library. However, even the `nanoassert` library was
 unnecessarily large, which led to the creation of `picoassert`.
 
-This library is also an open [golf](https://en.wikipedia.org/wiki/Code_golf)
-challenge. Please feel free to submit pull requests if you're able to shorten
-the code!
+This library is also an open [codegolf](https://en.wikipedia.org/wiki/Code_golf)
+challenge. Please feel free to submit pull requests if you're able to make the
+code even shorter!
 
-## Install
+## Install, Build & Test
+
+To install the package, use the standard NPM install command:
 
 ```sh
 npm install picoassert
 ```
+
+The package is hand-written, minified Javascript; therefore, no build process is
+required, and you can directly edit and execute the source!
+
+An NPM script has been created for simplicity when running tests, which can be
+run from the command line as shown below:
+
+```sh
+npm test
+```
+
+picoassert uses the [Tape](https://www.npmjs.com/package/tape) library for
+testing.
 
 ### Content Delivery Network (CDN)
 
