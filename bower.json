@@ -6,7 +6,7 @@
   "authors": [
     "George Thomas"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "assert",
     "equal",
